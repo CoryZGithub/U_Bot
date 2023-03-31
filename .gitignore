@@ -1,0 +1,4 @@
+.env
+frontend/node_modules
+frontend/.next/
+gitreadybackend/speech.wav

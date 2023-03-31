@@ -1,0 +1,25 @@
+.menuContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menuItem {
+	flex: 1;
+	text-align: center;
+	background-color: black;
+}
+
+.menuItem:hover {
+  color: rgb(129, 182, 200) !important;
+}
+
+.clearButton {
+  background-color: rgb(129, 182, 200);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}

@@ -1,0 +1,70 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 2rem;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+    border-radius: 20px;
+	border: 1px gray;
+}
+
+.h1 {
+	color: #333;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.sound-wave {
+	margin-bottom: 2rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+}
+
+.button {
+	background-color: #0070f3;
+	border: none;
+	color: #fff;
+	font-weight: 500;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.5rem;
+	margin:1rem;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+	background-color: #0051a2;
+}
+
+.soundWave {
+    width: 300px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+	
+}
+
+.App {
+    padding: 20px;
+  }
+  
+  .message-container {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .user-message {
+    text-align: right;
+  }
+  
+  .assistant-message {
+    text-align: left;
+  }
+  .autoPlay {
+	visibility: hidden;
+  }
